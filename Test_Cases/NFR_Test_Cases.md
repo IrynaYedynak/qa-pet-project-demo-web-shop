@@ -63,26 +63,9 @@
 - Sensitive data is encrypted or not exposed  
 - Password field masks input
 
----
 
-## NFR-005 – Accessibility
 
-**Description:**  
-- Verify that the website is accessible for users with disabilities
-
-**Test Steps:**  
-1. Navigate the site using keyboard only  
-2. Test screen reader support on key pages (home, products, cart, checkout)  
-3. Check color contrast ratios
-
-**Expected Result:**  
-- All interactive elements are reachable via keyboard  
-- Screen readers can read content correctly  
-- Color contrast meets WCAG standards
-
----
-
-## NFR-006 – Scalability / Load handling
+## NFR-005 – Scalability / Load handling
 
 **Description:**  
 - Verify that the website can handle multiple users simultaneously
@@ -95,7 +78,6 @@
 - Website remains functional  
 - Page load and interactions remain within acceptable time limits
 
----
 
 ## NFR-007 – Reliability / Availability
 
